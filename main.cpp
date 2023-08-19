@@ -82,11 +82,7 @@ int main()
     Shader ourShader("model.vs", "model.fs");
 
     // load models
-    // -----------
-    //Model ourModel(FileSystem::getPath("resources/objects/backpack/backpack.obj"));
-    //Model ourModel("resources/objects/ball/ball1.obj");
-    //Model ourModel("resources/objects/donut.obj");
-    Model ourModel("resources/objects/temple/temple.obj");
+    Model ourModel("resources/temple/temple.obj");
 
 
     // draw in wireframe
